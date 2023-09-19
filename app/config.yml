@@ -1,0 +1,5 @@
+services:
+    pet_detector:
+        model_path: '../models/yolov8n.onnx'
+        confidence_threshold: 0.5
+        iou_threshold: 0.2
